@@ -2,7 +2,15 @@
 
 A Neovim Plugin for Python code execution on a remote Databricks cluster.
 
-!!! This a pre-beta version !!!
+**⚠️DISCLAIMER: This plugic is in a very early stage of development and there's no plans of developing it further.⚠️**
+
+## Context
+
+This plugin was born out of pure suffering — the kind you get from editing code in the Databricks web UI. It started as a tiny proof-of-concept so I wouldn’t lose my mind, and… that’s about as far as it’s going. I switched jobs (praise be), so I no longer have to touch the Databricks shitshow of a web UI and therefore have zero incentive to polish this thing.
+
+If you give the plugin a spin, you’ll quickly discover that running code on a cluster is currently a blocking operation. Translation: the whole thing freezes harder than your laptop at 2% battery when you throw a big file at it.
+
+If that doesn’t scare you off and you actually want to make it better — be my guest. Fork it, twist it, teach it to fetch — whatever brings you joy.
 
 ## Dependencies
 
